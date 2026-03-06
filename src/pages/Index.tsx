@@ -37,7 +37,7 @@ const Index = () => {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-6 bg-background/80 backdrop-blur-md">
         <span className="text-lg font-semibold tracking-tight" style={{ fontFamily: "var(--font-display)" }}>
-          Portfolio
+          Tharun Edrik P
         </span>
         <div className="flex gap-8 text-sm text-muted-foreground">
           <a href="#work" className="hover:text-foreground transition-colors">Work</a>
@@ -206,7 +206,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="px-6 md:px-12 py-8 border-t border-border">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <span>© 2026 Portfolio. All rights reserved.</span>
+          <span>© 2026 Tharun Edrik P. All rights reserved.</span>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">Twitter</a>
             <a href="#" className="hover:text-foreground transition-colors">LinkedIn</a>
