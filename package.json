@@ -2,10 +2,6 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "homepage": "https://tharunedrik1000.github.io/portfolio",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -15,7 +11,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
