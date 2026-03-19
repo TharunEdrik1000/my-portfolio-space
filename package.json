@@ -1,6 +1,11 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
+  "homepage": "https://tharunedrik1000.github.io/portfolio",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -88,8 +93,4 @@
     "vitest": "^3.2.4"
   }
 }
-"homepage": "https://tharunedrik1000.github.io/portfolio",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
+
