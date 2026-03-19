@@ -11,6 +11,9 @@ export default defineConfig(({ mode }) => ({
     hmr: {
       overlay: false,
     },
+    export default defineConfig({
+  base: "/portfolio/",
+})
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
